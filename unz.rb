@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'open-uri'
 
-#downloads a "Ramparts" issue you choose to your disk
+#downloads a magazine issue you choose from http://www.unz.org/ to your disk
 puts "Magazine name"
 magazine_name = gets.chomp
 DATA_DIR = magazine_name 
